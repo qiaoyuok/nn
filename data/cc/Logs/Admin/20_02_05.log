@@ -86,11 +86,11 @@ SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 223 AND `status` = 1 ORDER BY `l
 SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 228 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
-NOTIC: [8] Undefined variable: Think /www1/tt.rrxncp.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
+NOTIC: [8] Undefined variable: Think /www1/tt.sjrcrld.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011815s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.011833s ]
 INFO: [ view_filter ] --START--
@@ -118,7 +118,7 @@ SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
 SQL: select VERSION() as version [ RunTime:0.0001s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
@@ -149,7 +149,7 @@ SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
 SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0006s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
@@ -182,7 +182,7 @@ SQL: SHOW COLUMNS FROM `jz_role` [ RunTime:0.0007s ]
 SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
@@ -399,11 +399,11 @@ SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 223 AND `status` = 1 ORDER BY `l
 SQL: SELECT * FROM `jz_menu` WHERE `parentid` = 228 AND `status` = 1 ORDER BY `listorder` ASC  [ RunTime:0.0002s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
-NOTIC: [8] Undefined variable: Think /www1/tt.rrxncp.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
+NOTIC: [8] Undefined variable: Think /www1/tt.sjrcrld.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011955s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.011974s ]
 INFO: [ view_filter ] --START--
@@ -430,7 +430,7 @@ SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
 SQL: select VERSION() as version [ RunTime:0.0001s ]
 SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
 INFO: [ view_parse ] --START--
-NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.rrxncp.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /www1/tt.sjrcrld.cn/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
@@ -1157,7 +1157,7 @@ INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
-NOTIC: [8] Undefined variable: Think /www1/tt.rrxncp.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
+NOTIC: [8] Undefined variable: Think /www1/tt.sjrcrld.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021792s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.021814s ]
 INFO: [ view_filter ] --START--
@@ -1306,7 +1306,7 @@ INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
-NOTIC: [8] Undefined variable: Think /www1/tt.rrxncp.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
+NOTIC: [8] Undefined variable: Think /www1/tt.sjrcrld.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025602s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.025630s ]
 INFO: [ view_filter ] --START--
@@ -1514,7 +1514,7 @@ INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
-NOTIC: [8] Undefined variable: Think /www1/tt.rrxncp.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
+NOTIC: [8] Undefined variable: Think /www1/tt.sjrcrld.cn/data/cc/Cache/Admin/583c508109d8789147ba5717c81847c5.php 第 163 行.
 INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020297s ]
 INFO: [ view_parse ] --END-- [ RunTime:0.020325s ]
 INFO: [ view_filter ] --START--

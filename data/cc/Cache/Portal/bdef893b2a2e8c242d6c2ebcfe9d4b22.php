@@ -96,10 +96,10 @@ tSpeed = 300 //切换速度300ms
             window.location.href = "/5e1e5cb1d3841476ceb279da1db2e905/6IOh6Iux6ZuE/ouIvv0wtqOBjwlfICXcC4hk6sx1w/url/index";
         }
         $scope.gotozj=function(){
-            window.location.href = "http://tt.rrxncp.cn/game/playRoomList";
+            window.location.href = "http://tt.sjrcrld.cn/game/playRoomList";
         }
         $scope.gotored=function(){
-            window.location.href = "http://tt.rrxncp.cn/ay/rp";
+            window.location.href = "http://tt.sjrcrld.cn/ay/rp";
         }
         $scope.gotoerweima=function(){
             window.location.href='erweima';
@@ -215,7 +215,7 @@ tSpeed = 300 //切换速度300ms
 
         $scope.getAuthcodeHttp=function(phone){
             $http({
-                url:'http://tt.rrxncp.cn/account/getMobileSms',
+                url:'http://tt.sjrcrld.cn/account/getMobileSms',
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/x-www-form-urlencoded'
@@ -243,7 +243,7 @@ tSpeed = 300 //切换速度300ms
 
         $scope.bindPhoneHttp=function(phone,authcode){
             $http({
-                url:'http://tt.rrxncp.cn/account/checkSmsCode',
+                url:'http://tt.sjrcrld.cn/account/checkSmsCode',
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/x-www-form-urlencoded'

@@ -96,10 +96,10 @@ tSpeed = 300 //切换速度300ms
             window.location.href = "/5e1e5cb1d3841476ceb279da1db2e905/6IOh6Iux6ZuE/ouIvv0wtqOBjwlfICXcC4hk6sx1w/url/index";
         }
         $scope.gotozj=function(){
-            window.location.href = "http://tt.rrxncp.cn/game/playRoomList";
+            window.location.href = "http://tt.sjrcrld.cn/game/playRoomList";
         }
         $scope.gotored=function(){
-            window.location.href = "http://tt.rrxncp.cn/ay/rp";
+            window.location.href = "http://tt.sjrcrld.cn/ay/rp";
         }
         $scope.gotoerweima=function(){
             window.location.href='erweima';
@@ -198,7 +198,7 @@ tSpeed = 300 //切换速度300ms
 
         $scope.getAuthcodeHttp=function(phone){
             $http({
-                url:'http://tt.rrxncp.cn/account/getMobileSms',
+                url:'http://tt.sjrcrld.cn/account/getMobileSms',
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/x-www-form-urlencoded'
@@ -226,7 +226,7 @@ tSpeed = 300 //切换速度300ms
 
         $scope.bindPhoneHttp=function(phone,authcode){
             $http({
-                url:'http://tt.rrxncp.cn/account/checkSmsCode',
+                url:'http://tt.sjrcrld.cn/account/checkSmsCode',
                 method: 'POST',
                 headers:{
                     'Content-Type': 'application/x-www-form-urlencoded'
@@ -1279,15 +1279,15 @@ tSpeed = 300 //切换速度300ms
 
                 switch($scope.createInfo.isShow){
                     case 1:
-                        $scope.connectSocket("ws://tt.rrxncp.cn:7451/gamedn", $scope.createInfo.isShow);
+                        $scope.connectSocket("ws://tt.sjrcrld.cn:7451/gamedn", $scope.createInfo.isShow);
                         localStorage.bullx = JSON.stringify($scope.createInfo.bullx);
                         break;
                     case 4:
-                        $scope.connectSocket("ws://tt.rrxncp.cn:7451/gamezjh", $scope.createInfo.isShow);
+                        $scope.connectSocket("ws://tt.sjrcrld.cn:7451/gamezjh", $scope.createInfo.isShow);
                         localStorage.flower = JSON.stringify($scope.createInfo.flower);
                         break;
                     case 5:
-                        $scope.connectSocket("ws://tt.rrxncp.cn:7451/gamesg", $scope.createInfo.isShow);
+                        $scope.connectSocket("ws://tt.sjrcrld.cn:7451/gamesg", $scope.createInfo.isShow);
                         localStorage.sangong = JSON.stringify($scope.createInfo.sangong);
                         break;
                     case 6:
@@ -1319,7 +1319,7 @@ tSpeed = 300 //切换速度300ms
                         localStorage.dcx = JSON.stringify($scope.createInfo.dcx);
                         break;
                     case 14:
-                        $scope.connectSocket("ws://tt.rrxncp.cn:7451/gamelzdn", $scope.createInfo.isShow);
+                        $scope.connectSocket("ws://tt.sjrcrld.cn:7451/gamelzdn", $scope.createInfo.isShow);
                         localStorage.laibull = JSON.stringify($scope.createInfo.laibull);
                         break;
                     case 16:

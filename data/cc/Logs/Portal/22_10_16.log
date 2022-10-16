@@ -436,7 +436,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
 
-[ 2022-10-16T14:52:37+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.rrxncp.cn%2Froom%2F570
+[ 2022-10-16T14:52:37+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.sjrcrld.cn%2Froom%2F570
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010913s ]
 INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003291s ]
@@ -500,7 +500,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
 
-[ 2022-10-16T14:52:58+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.rrxncp.cn%2Froom%2F570
+[ 2022-10-16T14:52:58+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.sjrcrld.cn%2Froom%2F570
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
 INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000386s ]
