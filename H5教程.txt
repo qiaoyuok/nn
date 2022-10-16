@@ -1,0 +1,50 @@
+﻿
+奇偶猫  神兽工会搭建过程
+
+
+服务器选择 linux 7版本的   域名一定要备案的，  还需要一个认证的公众号
+
+源码请在notepad+全部替换 把nn.xiandouer.com替换成自己的域名
+
+我已经替换了，现在上传到服务器
+
+宝塔需要设置伪静态thinkphp
+
+修改数据库
+auto/php54n/config.php
+data/conf/db.php
+
+配置php函数
+搜索c =
+替换方法  搜索disable_functions =   后面的内容替换
+passthru, exec, system, putenv, chroot, chgrp, chown, shell_exec, popen, proc_open, pcntl_exec, ini_alter, ini_restore, dl, openlog, syslog, readlink, symlink, popepassthru, pcntl_waitpid, pcntl_wifexited,pcntl_wifstopped, pcntl_wifsignaled, pcntl_wifcontinued, pcntl_wexitstatus, pcntl_wtermsig, pcntl_wstopsig, pcntl_get_last_error, pcntl_strerror, pcntl_sigprocmask, pcntl_sigwaitinfo, pcntl_sigtimedwait, pcntl_exec, pcntl_getpriority, pcntl_setpriority, imap_open, apache_setenv
+
+这里直接在前面加上一个英文的分号就行 ;
+
+现在打开我们的后台
+域名/admin
+1:65535  要放开端口
+
+没想到啊。，这玩应还有这么多的登录方式	。
+能在闲聊，QQ，微信上玩。
+不错，试试
+
+等待看看能不能进去 
+有些东西我没有替换好，你们替换文件的时候替换好久好了
+密码是  账号admin
+
+http://域名/       第一次进去游戏一定要先进这个
+域名/dh    这个是导航页
+
+还需要启动一下机器人
+ cd /www/wwwroot/域名/auto/
+ ./1.sh
+ 
+后台地址：http://域名/admin
+后台账号：admin 密码看这里：https://www.jocat.cn/archives/20241
+
+
+手机可以进
+还有房卡充值。
+
+大概的搭建方法就是这样的了，截图上传。

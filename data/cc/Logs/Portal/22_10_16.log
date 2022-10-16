@@ -1,0 +1,943 @@
+[ 2022-10-16T14:50:00+08:00 ] 127.0.0.1 /index.php/Portal/AdminUser/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000481s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000239s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` ORDER BY `id` desc LIMIT 0,20   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: parent /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/AdminUserController.class.php 第 141 行.
+SQL: SELECT * FROM `jz_user` WHERE `id` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Use of undefined constant user_status - assumed 'user_status' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 61 行.
+NOTIC: [8] Undefined index: user_status /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 61 行.
+NOTIC: [2] Use of undefined constant user_status - assumed 'user_status' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 62 行.
+NOTIC: [8] Undefined index: user_status /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 62 行.
+NOTIC: [2] Use of undefined constant user_status - assumed 'user_status' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 63 行.
+NOTIC: [8] Undefined index: user_status /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 63 行.
+NOTIC: [2] Use of undefined constant typelx - assumed 'typelx' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 68 行.
+NOTIC: [8] Undefined index: typelx /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 68 行.
+NOTIC: [2] Use of undefined constant typelx - assumed 'typelx' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 69 行.
+NOTIC: [8] Undefined index: typelx /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 69 行.
+NOTIC: [2] Use of undefined constant typelx - assumed 'typelx' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 70 行.
+NOTIC: [8] Undefined index: typelx /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 70 行.
+NOTIC: [2] Use of undefined constant typelx - assumed 'typelx' (this will throw an Error in a future version of PHP) /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 71 行.
+NOTIC: [8] Undefined index: typelx /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 71 行.
+NOTIC: [8] Undefined index: room_id /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 77 行.
+NOTIC: [8] Undefined index: user_login /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 79 行.
+NOTIC: [8] Undefined index: nickname /Users/sunqiaoyu/PhpstormProjects/os/nn_1/data/cc/Cache/Portal/359c64f17a2e495c734f76fd885f491f.php 第 81 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000176s ]
+
+[ 2022-10-16T14:51:07+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000473s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8] unserialize(): Error at offset 195 of 659 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 182 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 182 行.
+
+[ 2022-10-16T14:51:54+08:00 ] 127.0.0.1 /index.php?token=53307fc18e8841ca3759e5611d08fedb&s=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005861s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000647s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007055s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `token` = '53307fc18e8841ca3759e5611d08fedb' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: name /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: istongyi /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 44 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+
+[ 2022-10-16T14:51:59+08:00 ] 127.0.0.1 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000262s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0010s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001597s ]
+
+[ 2022-10-16T14:51:59+08:00 ] 127.0.0.1 /index.php?token=53307fc18e8841ca3759e5611d08fedb&s=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000123s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `token` = '53307fc18e8841ca3759e5611d08fedb' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: name /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( open='87' AND uid='87' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2022-10-16T14:52:00+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004015s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004405s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:52:00+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003842s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:52:00+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003299s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003922s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:00+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004688s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005348s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:04+08:00 ] 127.0.0.1 /room/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: 无法加载控制器:Room
+
+[ 2022-10-16T14:52:05+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000281s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:52:05+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000207s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:52:05+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000080s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:05+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000088s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:08+08:00 ] 127.0.0.1 /room/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000266s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+ERR: 无法加载控制器:Room
+
+[ 2022-10-16T14:52:09+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000281s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:52:09+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000394s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:52:09+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000087s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:09+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000088s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:11+08:00 ] 127.0.0.1 /index.php?token=53307fc18e8841ca3759e5611d08fedb&s=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000333s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `token` = '53307fc18e8841ca3759e5611d08fedb' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: name /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( open='87' AND uid='87' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2022-10-16T14:52:11+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003627s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000371s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:52:11+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000738s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:52:11+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000092s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:11+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000092s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:52:22+08:00 ] 127.0.0.1 /f/ulop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000481s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+ERR: 无法加载控制器:F
+
+[ 2022-10-16T14:52:27+08:00 ] 127.0.0.1 /account/getMobileSms
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000499s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+ERR: 无法加载控制器:Account
+
+[ 2022-10-16T14:52:30+08:00 ] 127.0.0.1 /f/ulop
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000779s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+ERR: 无法加载控制器:F
+
+[ 2022-10-16T14:52:35+08:00 ] 127.0.0.1 /index.php/portal/index/getAllRoom
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000307s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_room` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jz_room` WHERE ( maccount_id = 87 AND endtime = 0 )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( uid = 87 AND zt = 1 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2022-10-16T14:52:37+08:00 ] 127.0.0.1 /room/570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000273s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0011s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_room` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_room` WHERE `id` = 570 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_qun` WHERE `open` = 87  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: bs /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined index: bs /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: gz /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index:  /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: sz /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 114 行.
+NOTIC: [8] Undefined index:  /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 114 行.
+NOTIC: [8] Undefined index: px /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to access array offset on value of type null /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 122 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2022-10-16T14:52:37+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.rrxncp.cn%2Froom%2F570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010913s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003291s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015976s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0013s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0081s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0078s ]
+
+[ 2022-10-16T14:52:58+08:00 ] 127.0.0.1 /room/570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000421s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0003s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_room` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_room` WHERE `id` = 570 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_qun` WHERE `open` = 87  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: bs /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 100 行.
+NOTIC: [8] Undefined index: bs /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 109 行.
+NOTIC: [8] Undefined index: gz /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index:  /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 113 行.
+NOTIC: [8] Undefined index: sz /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 114 行.
+NOTIC: [8] Undefined index:  /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 114 行.
+NOTIC: [8] Undefined index: px /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to access array offset on value of type null /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Portal/Controller/IndexController.class.php 第 122 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000546s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2022-10-16T14:52:58+08:00 ] 127.0.0.1 /index.php/portal/index/getconfig/?url=http%3A%2F%2Ftt.rrxncp.cn%2Froom%2F570
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000386s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000350s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0012s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( open='87' AND uid='87' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000868s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000883s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000224s ]
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000216s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000268s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000103s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000355s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:54:00+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000081s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000225s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0015s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0003s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( open='87' AND uid='87' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000105s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000180s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /files/js/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000202s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /files/js/scroll/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000103s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载控制器:Files
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000086s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:54:10+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000086s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:55:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000292s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0009s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:56:09+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000232s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:56:27+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000493s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0010s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: UPDATE `jz_user` SET `token`='53307fc18e8841ca3759e5611d08fedb' WHERE `id` = 87 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_qun` WHERE ( open='87' AND uid='87' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000765s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030167s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2022-10-16T14:56:27+08:00 ] 127.0.0.1 /%7B%7Bgamer.headimgurl%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载控制器:{{gamer
+
+[ 2022-10-16T14:56:27+08:00 ] 127.0.0.1 /%7B%7BsendCardsResult['avatar_url']%7D%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000183s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: 无法加载控制器:{{sendCardsResult['avatar_url']}}
+
+[ 2022-10-16T14:56:36+08:00 ] 127.0.0.1 /index.php/Portal/AdminServer/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001254s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000305s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0010s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `jz_server`  [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `jz_game` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jz_game` WHERE `zt` = 1  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000220s ]
+
+[ 2022-10-16T14:56:37+08:00 ] 127.0.0.1 /index.php/Portal/AdminBonus/extractSet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000339s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000320s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0010s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='extract' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000220s ]
+
+[ 2022-10-16T14:57:18+08:00 ] 127.0.0.1 /index.php/AdminBonus/extractPost
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000457s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000675s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [8] unserialize(): Error at offset 1130 of 1473 bytes /Users/sunqiaoyu/PhpstormProjects/os/nn_1/simplewind/Core/Common/functions.php 第 1178 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0017s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_options` SET `option_value`='{\"weixin_appid\":\"wx39b3b4445c755912\",\"weixin_key\":\"9577f4d98feac001c34de206aa39d233\",\"access_token\":\"30_TM2EwaswH3FyNVZRtFQkEWQ_7XoRQzaPVBrYrsXDEfA8ajzm7kVr09zEEAi2i7osi6XdvtokiuPjzOZHOmDJAsTD2IrH2N8e26eUVjBd-MGvglIQOesRwNLoRnJBkvPYVMrR2dfpJBIkCDJORKYjAJADWK\",\"access_token_time\":\"1581913110\",\"jsapi_ticket\":\"kgt8ON7yVITDhtdwci0qeZaHF7yVxcWlymMZpqXTmCScvdYpvQ19cnBkfDDTK3uiMwwiNK6QIEMOgwY3gLmc4A\",\"jsapi_ticket_time\":\"1536341175\",\"skin_name\":\"oy-\\u7ea2\\u6708,nm-\\u516d\\u7c73,hy-\\u540e\\u7fbf,hd-\\u9ec4\\u5e1d,sg-\\u5723\\u5149,ce-\\u5ae6\\u5a25,tg-\\u5929\\u72d7,ho-\\u706b\\u795e,xy-\\u8f69\\u8f95,sl-\\u795e\\u9f99,hh-\\u7687\\u540e,iw-\\u7cbe\\u536b,lm-\\u9f99\\u9a6c,lz-\\u9f99\\u73e0,jw-\\u4e5d\\u5c3e,jt-\\u4e5d\\u5929,hs-\\u6d77\\u795e,ql-\\u9752\\u9f99,bh-\\u767d\\u864e,zq-\\u6731\\u96c0,xw-\\u7384\\u6b66,qn-\\u9e92\\u9e9f,nw-\\u5973\\u5a32,pg-\\u76d8\\u53e4,fh-\\u51e4\\u51f0\",\"xianliao_appid\":\"5kr7X4sRjkQneHPU\",\"xianliao_key\":\"DFxxbscuiusgUPZp\",\"xianliao_url\":\"fex.herooms.com.cn\",\"xianliao_sign\":\"2422C0882A69EF05E80940FAA8BBBF67\",\"qq_appid\":\"9915583429\",\"qq_key\":\"f32049b23d8c9ce049fb4938cc1b2dee\",\"qq_url\":\"QQ\\u56de\\u8c03\\u5730\\u5740\",\"game_url\":\"\\u4f60\\u7684\\u57df\\u540d\\/dh\",\"access_token_xiaoliao\":\"7886bd4438c66880c15393843b79e66c\",\"access_token_time_xiaoliao\":1554113405,\"access_token_xianliao\":\"a32ba87053dab7b2875e7cc54ec53d9e\",\"access_token_time_xianliao\":\"1554227133\",\"access_token_qq\":\"C6966F309DE08077F4F67E62CA7F12ED\",\"access_token_time_qq\":\"1554172414\"}' WHERE `option_name` = 'extract' [ RunTime:0.0203s ]
+
+[ 2022-10-16T14:57:19+08:00 ] 127.0.0.1 /index.php/Portal/AdminBonus/extractSet
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000261s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000251s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0011s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jz_users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jz_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='extract' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] count(): Parameter must be an array or an object that implements Countable /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Lib/Taglib/TagLibSpadmin.class.php 第 37 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2022-10-16T14:57:29+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000278s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:57:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000317s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:57:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000215s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:57:39+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000521s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:57:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000327s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
+[ 2022-10-16T14:59:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000566s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+NOTIC: [8] Undefined index: code /Users/sunqiaoyu/PhpstormProjects/os/nn_1/application/Common/Controller/HomebaseController.class.php 第 85 行.
+
